@@ -1,2 +1,4 @@
 [project]
-name = DataFem
+name = Portafolio
+[servers.ghpages]
+target = ghpages+https://SharonCamacho/Portafolio
