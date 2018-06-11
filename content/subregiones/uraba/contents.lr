@@ -1,0 +1,7 @@
+_model: subregiones
+---
+name: Urabá
+---
+_template: sub.html
+---
+image: urabaantioqueno.jpg

@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.name }}{% endblock %}
+{% block body %}
+  <h2>{{ this.name }}</h2>
+  {% if this.image %} <img src="{{ this|url }}{{ this.image }}" width=150 />{% endif %}
+  {% if this.image_resultados %} <img src="{{ this|url }}{{ this.image_resultados }}" width=150 />{% endif %}
+  {% if this.image_tabla %} <img src="{{ this|url }}{{ this.image_tabla }}" width=150 />{% endif %}
+{% endblock %}

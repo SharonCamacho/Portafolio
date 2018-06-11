@@ -1,0 +1,7 @@
+_model: subregiones
+---
+name: Oriente
+---
+image: piedra-del-peñol-guatapé-2.jpg
+---
+_template: sub.html

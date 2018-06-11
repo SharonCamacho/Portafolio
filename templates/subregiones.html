@@ -2,10 +2,10 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
   <h2>{{ this.title }}</h2>
-  {% set members = site.query('/team') %}
+  {% set members = site.query('/subregiones') %}
   <ul>
   {% for member in members %}
-    <li><a href="{{ member|url }}">{{ member.name }} {{ member.last_name }}</a></li>
+    <li><a href="{{ member|url }}">{{ member.name }}</a></li>
   {% endfor %}
   </ul>
 {% endblock %}
